@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="a">
+      <h1 id="b" style="color: black;">RESUME</h1>
+      <h1 id="a" style="color: black;">Analyzer</h1>
+    </div>
+    
+    <p><em>Analyze your resume in a go!</em> </p>
+    
+    <input type="file" id="resumeInput" accept=".pdf, .docx, .txt">
+    
+    
+    <textarea id="jobDescription" placeholder="PASTE THE JOB DESCRIPTION HERE" required></textarea>
+    
+    
+    <button id="analyzeBtn">Analyze</button>
+    
+  </div>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>

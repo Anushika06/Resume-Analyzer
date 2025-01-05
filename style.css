@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-color: #2f4f4f;
+  color: #333;
+}
+
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: black 2px 3px 2px 1px;
+}
+
+textarea, input[type="file"] {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgreen;
+  color:black;
+}
+
+#results {
+  margin-top: 20px;
+  text-align: left;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: black 2px 2px;
+  visibility: hidden;
+  width: 100%;
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#results.visible{
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  background-color: lightgreen;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: black 2px 2px;
+  visibility: visible;
+  display: block;
+}
+
+.a{
+  background-color: lightgreen;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#a{
+  font-family: 'Kaushan Script', sans-serif;
+}
+#b{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#jobDescription{
+  background-color: lightgray;
+}
